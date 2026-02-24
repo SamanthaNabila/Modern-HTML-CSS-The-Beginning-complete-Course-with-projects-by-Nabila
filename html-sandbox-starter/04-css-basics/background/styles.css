@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    /*backgroun color 
+    background-color: coral;*/
+    /*backgroun image */
+    /*background-size: 200px;
+      */
+
+    /*Linear gradient */
+   /* background: linear-gradient(to bottom, lightblue,darkblue);*/
+    background: url(image3.png) no-repeat center/cover;
+    
+    background-image: url(image3.png);
+    background-size: cover;
+    background-position: center;
+
+    background-repeat: no-repeat;
+   
+
+}
+.hero h1 {
+    font-size:40px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    text-align: center;
+    font-size: 2rem;
+}

@@ -1,0 +1,13 @@
+.none {
+    display: none;
+}
+.hidden {
+    visibility: hidden;
+}
+
+p {
+    display: inline;
+}
+a {
+    display: block;
+}

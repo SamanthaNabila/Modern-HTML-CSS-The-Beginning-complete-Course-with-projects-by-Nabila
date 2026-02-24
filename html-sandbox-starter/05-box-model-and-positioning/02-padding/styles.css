@@ -1,0 +1,23 @@
+.box {
+    background-color: darkblue;
+    color: white;
+    width: 400px;
+}
+.box-1 {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+
+    margin-bottom: 8rem;
+
+}
+
+.box-2 {
+    padding: 40px 20px;
+    margin-bottom: 8rem;
+
+}
+.box-3 {
+    padding: 30px 40px 100px;
+}

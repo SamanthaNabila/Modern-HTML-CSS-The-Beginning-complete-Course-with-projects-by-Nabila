@@ -1,0 +1,41 @@
+.box {
+    width:200px;
+    height: 200px;
+    background: lightblue;
+    display: flex;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    
+}
+p {
+    font-size: 20px;
+}
+
+.box-1 {
+    position: static;
+    left: 30px;
+}
+.box-2{
+    position: relative;
+    left:30px;
+}
+.box-3 {
+    position: fixed;
+}
+.box-4 {
+    position: sticky;
+    top:200px
+}
+.box-5 {
+    position:relative;
+    width: 600px;
+    height:600px;
+    background: coral;
+}
+.box-6 {
+    position: absolute;
+    bottom:100px;
+    left:0px;
+}

@@ -1,0 +1,12 @@
+body {
+    font-family: 'poppins',sans-serif;
+}
+h2{
+    font-size: x-large;
+    font-weight:700;
+    font-style: normal;
+    font-variant: normal;
+}
+a{
+    text-decoration: none;
+}

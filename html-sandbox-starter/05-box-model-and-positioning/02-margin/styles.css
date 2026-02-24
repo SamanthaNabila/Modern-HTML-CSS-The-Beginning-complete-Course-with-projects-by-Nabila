@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3,p {
+    margin: 0;
+}
+
+.box {
+    background: coral;
+    max-width: 600px;
+    margin: 30px;
+    padding: 40px;
+}
+
+.box-2 {
+    margin-top: 60px;
+    margin-bottom: 70px;
+    margin-right: 20px;
+    margin-left: 80px;
+}
+
+.box-3 {
+    
+    margin-left: -30px;
+}

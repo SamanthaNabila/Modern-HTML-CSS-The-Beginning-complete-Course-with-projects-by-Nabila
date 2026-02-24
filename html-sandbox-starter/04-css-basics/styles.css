@@ -1,0 +1,32 @@
+body {
+    font-family:'Arial','sans-serif';
+    border:1px solid red;
+}
+
+/* 
+h2{
+    color:red;
+    font-size:30px;
+}
+a{
+    color:blue;
+    text-decoration: none;
+}*/
+/* class selectors */
+.sporty {
+    color: red;
+
+}
+.casual {
+    color: blue;
+}
+.formal {
+    color: brown;
+}
+/*ID Selectors*/
+#container {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 20px;
+    
+}
