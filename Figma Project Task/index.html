@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Furniro Navbar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+
+     <nav class="navbar">
+        
+        <div class="navbar__logo">
+            <img class="navbar__logo-icon" src="images/img-1.png"/>
+            <h2 class="navbar__logo-text">Furniro</h2>
+        </div>
+
+        
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#" class="navbar__link navbar__link--active">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#" class="navbar__link">Shop</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#" class="navbar__link">About</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#" class="navbar__link">Contact</a>
+            </li>
+        </ul>
+
+        <!-- Icons -->
+        <div class="navbar__icons">
+            <svg width="24" height="19" viewBox="0 0 24 19" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 9.33333V3.5H23.3333V10.5H21M21 15.1667H23.3333V12.8333H21M9.33333 10.5C12.4483 10.5 18.6667 12.0633 18.6667 15.1667V18.6667H0V15.1667C0 12.0633 6.21833 10.5 9.33333 10.5ZM9.33333 0C10.571 0 11.758 0.491665 12.6332 1.36683C13.5083 2.242 14 3.42899 14 4.66667C14 5.90434 13.5083 7.09133 12.6332 7.9665C11.758 8.84167 10.571 9.33333 9.33333 9.33333C8.09566 9.33333 6.90867 8.84167 6.0335 7.9665C5.15833 7.09133 4.66667 5.90434 4.66667 4.66667C4.66667 3.42899 5.15833 2.242 6.0335 1.36683C6.90867 0.491665 8.09566 0 9.33333 0ZM9.33333 12.7167C5.86833 12.7167 2.21667 14.42 2.21667 15.1667V16.45H16.45V15.1667C16.45 14.42 12.7983 12.7167 9.33333 12.7167ZM9.33333 2.21667C8.68355 2.21667 8.06039 2.47479 7.60092 2.93425C7.14146 3.39372 6.88333 4.01689 6.88333 4.66667C6.88333 5.31645 7.14146 5.93961 7.60092 6.39908C8.06039 6.85854 8.68355 7.11667 9.33333 7.11667C9.98311 7.11667 10.6063 6.85854 11.0657 6.39908C11.5252 5.93961 11.7833 5.31645 11.7833 4.66667C11.7833 4.01689 11.5252 3.39372 11.0657 2.93425C10.6063 2.47479 9.98311 2.21667 9.33333 2.21667Z" fill="black"/>
+</svg>
+
+            
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M24.5 24.5L19.2663 19.257M22.1666 12.25C22.1666 14.88 21.1219 17.4024 19.2621 19.2621C17.4024 21.1219 14.88 22.1666 12.25 22.1666C9.61992 22.1666 7.09757 21.1219 5.23784 19.2621C3.3781 17.4024 2.33331 14.88 2.33331 12.25C2.33331 9.61992 3.3781 7.09757 5.23784 5.23784C7.09757 3.3781 9.61992 2.33331 12.25 2.33331C14.88 2.33331 17.4024 3.3781 19.2621 5.23784C21.1219 7.09757 22.1666 9.61992 22.1666 12.25V12.25Z" stroke="black" stroke-width="2" stroke-linecap="round"/>
+</svg>
+
+
+            
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.16668 3.5C4.94551 3.5 2.33334 6.08533 2.33334 9.275C2.33334 11.8498 3.35418 17.9608 13.4027 24.1383C13.5827 24.2479 13.7893 24.3058 14 24.3058C14.2107 24.3058 14.4173 24.2479 14.5973 24.1383C24.6458 17.9608 25.6667 11.8498 25.6667 9.275C25.6667 6.08533 23.0545 3.5 19.8333 3.5C16.6122 3.5 14 7 14 7C14 7 11.3878 3.5 8.16668 3.5Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+
+            
+            <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.2355 19.1926H8.95234L9.76991 17.5273L23.3543 17.5027C23.8137 17.5027 24.2074 17.1746 24.2894 16.7207L26.1707 6.19062C26.2199 5.91445 26.1461 5.63008 25.9656 5.41406C25.8764 5.30775 25.7652 5.22211 25.6396 5.16309C25.514 5.10407 25.377 5.07308 25.2383 5.07227L7.95702 5.01484L7.80937 4.32031C7.7164 3.87734 7.31718 3.55469 6.86328 3.55469H2.63867C2.38267 3.55469 2.13716 3.65638 1.95614 3.8374C1.77513 4.01841 1.67343 4.26393 1.67343 4.51992C1.67343 4.77592 1.77513 5.02143 1.95614 5.20245C2.13716 5.38346 2.38267 5.48516 2.63867 5.48516H6.08124L6.72656 8.55312L8.31523 16.2449L6.26992 19.5836C6.1637 19.727 6.09972 19.8972 6.08523 20.075C6.07073 20.2528 6.10629 20.4312 6.18788 20.5898C6.35195 20.9152 6.68281 21.1203 7.04921 21.1203H8.7664C8.40032 21.6065 8.20258 22.1988 8.20312 22.8074C8.20312 24.3551 9.46093 25.6129 11.0086 25.6129C12.5562 25.6129 13.8141 24.3551 13.8141 22.8074C13.8141 22.1977 13.6117 21.6043 13.2508 21.1203H17.6559C17.2898 21.6065 17.092 22.1988 17.0926 22.8074C17.0926 24.3551 18.3504 25.6129 19.898 25.6129C21.4457 25.6129 22.7035 24.3551 22.7035 22.8074C22.7035 22.1977 22.5012 21.6043 22.1402 21.1203H25.2383C25.7687 21.1203 26.2035 20.6883 26.2035 20.1551C26.2019 19.8994 26.0993 19.6546 25.9179 19.4743C25.7366 19.294 25.4913 19.1927 25.2355 19.1926ZM8.35898 6.91797L24.1035 6.96992L22.5613 15.6051L10.1937 15.627L8.35898 6.91797ZM11.0086 23.6715C10.5328 23.6715 10.1445 23.2832 10.1445 22.8074C10.1445 22.3316 10.5328 21.9434 11.0086 21.9434C11.4844 21.9434 11.8726 22.3316 11.8726 22.8074C11.8726 23.0366 11.7816 23.2564 11.6196 23.4184C11.4575 23.5805 11.2378 23.6715 11.0086 23.6715ZM19.898 23.6715C19.4223 23.6715 19.034 23.2832 19.034 22.8074C19.034 22.3316 19.4223 21.9434 19.898 21.9434C20.3738 21.9434 20.7621 22.3316 20.7621 22.8074C20.7621 23.0366 20.6711 23.2564 20.509 23.4184C20.347 23.5805 20.1272 23.6715 19.898 23.6715Z" fill="black"/>
+</svg>
+
+
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <section class="hero">
+    <div class="hero__container">
+        <div class="hero__content">
+            <span class="hero__subtitle">New Arrival</span>
+            <h1 class="hero__title">
+                Discover Our <br>
+                New Collection
+            </h1>
+            <p class="hero__description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+                Ut elit tellus, luctus nec ullamcorper mattis.
+            </p>
+            <a href="#" class="hero__btn">Buy Now</a>
+        </div>
+    </div>
+</section>
+
+<!--Range section-->
+<section class="range">
+    <div class="range__container">
+
+        <div class="range__header">
+            <h2 class="range__title">Browse The Range</h2>
+            <p class="range__subtitle">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            </p>
+        </div>
+
+        <div class="range__items">
+
+            <div class="range__item">
+                <div class="range__image-wrapper">
+                    <img src="images/img-3.png" alt="Dining" class="range__image">
+                </div>
+                <h3 class="range__caption">Dining</h3>
+            </div>
+
+            <div class="range__item">
+                <div class="range__image-wrapper">
+                    <img src="images/img-4.png" alt="Living" class="range__image">
+                </div>
+                <h3 class="range__caption">Living</h3>
+            </div>
+
+            <div class="range__item">
+                <div class="range__image-wrapper">
+                    <img src="images/img-5.png" alt="Bedroom" class="range__image">
+                </div>
+                <h3 class="range__caption">Bedroom</h3>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!--Our product-->
+<section class="products">
+    <div class="products__container">
+
+        <h2 class="products__title">Our Products</h2>
+
+        <div class="products__grid">
+
+            <!-- Product 1 -->
+            <div class="product">
+                <div class="product__image-wrapper">
+                    <img src="images/img-6.png" class="product__image" alt="">
+                    <span class="product__badge product__badge--discount">-30%</span>
+
+                </div>
+
+                <div class="product__info">
+                    <h3 class="product__name">Syltherine</h3>
+                    <p class="product__desc">Stylish cafe chair</p>
+                    <p class="product__price">
+                        Rp 2.500.000
+                        <span class="product__old-price">Rp 3.500.000</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product">
+                <div class="product__image-wrapper">
+                    <img src="images/img-7.png" class="product__image" alt="">
+                </div>
+                <div class="product__overlay">
+                        <button class="product__btn">Add to cart</button>
+                        <div class="product__actions">
+                            <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z" fill="white"/>
+</svg>
+Share</span>
+                            <span> <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M8.66 6L9.66 7L13.1 3.55L9.58 0L8.58 1L10.38 2.8H0.58V4.2H10.4L8.66 6ZM4.44 8L3.44 7L0 10.5L3.49 14L4.49 13L2.68 11.2H12.58V9.8H2.68L4.44 8Z" fill="white"/>
+</svg>
+ Compare</span>
+                            <span> <svg width="16" height="14" viewBox="0 0 16 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M7.81858 12.8009C-5.51448 5.43146 3.81884 -2.56854 7.81858 2.49016C11.8188 -2.56854 21.1522 5.43146 7.81858 12.8009Z" stroke="white" stroke-width="1.8"/>
+</svg>
+ Like</span>
+                        </div>
+                    </div>
+                <div class="product__info">
+                    <h3 class="product__name">Leviosa</h3>
+                    <p class="product__desc">Stylish cafe chair</p>
+                    <p class="product__price">Rp 2.500.000</p>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="product">
+                <div class="product__image-wrapper">
+                    <img src="images/img-8.png" class="product__image" alt="">
+                    <span class="product__badge product__badge--discount">-50%</span>
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Lolito</h3>
+                    <p class="product__desc">Luxury big sofa</p>
+                    <p class="product__price">
+                        Rp 7.000.000
+                        <span class="product__old-price">Rp 14.000.000</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product">
+                <div class="product__image-wrapper">
+                    <img src="images/img-9.png" class="product__image" alt="">
+                    <span class="product__badge product__badge--new">New</span>
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Respira</h3>
+                    <p class="product__desc">Outdoor bar table and stool</p>
+                    <p class="product__price">Rp 500.000</p>
+                </div>
+            </div>
+
+            <!-- Second Row -->
+
+            <div class="product">
+                <div class="product__image-wrapper">
+                    <img src="images/img-10.png" class="product__image" alt="">
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Grifo</h3>
+                    <p class="product__desc">Night lamp</p>
+                    <p class="product__price">Rp 1.500.000</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product__image-wrapper">
+                    <img src="images/img-11.png" class="product__image" alt="">
+                    <span class="product__badge product__badge--new">New</span>
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Muggo</h3>
+                    <p class="product__desc">Small mug</p>
+                    <p class="product__price">Rp 150.000</p>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product__image-wrapper">
+                    <img src="images/img-12.png" class="product__image" alt="">
+                    <span class="product__badge product__badge--discount">-50%</span>
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Pinky</h3>
+                    <p class="product__desc">Cute bed set</p>
+                    <p class="product__price">
+                        Rp 7.000.000
+                        <span class="product__old-price">Rp 14.000.000</span>
+                    </p>
+                </div>
+            </div>
+
+            <div class="product">
+                <div class="product__image-wrapper">
+                    <img src="images/img-13.jpg" class="product__image" alt="">
+                    <span class="product__badge product__badge--new">New</span>
+                </div>
+                <div class="product__info">
+                    <h3 class="product__name">Potty</h3>
+                    <p class="product__desc">Minimalist flower pot</p>
+                    <p class="product__price">Rp 500.000</p>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="products__footer">
+            <button class="products__show-more">Show More</button>
+        </div>
+
+    </div>
+</section>
+
+<section class="inspiration">
+  <div class="inspiration__container">
+
+   
+    <div class="inspiration__content">
+      <h2 class="inspiration__title">
+        50+ Beautiful rooms inspiration
+      </h2>
+
+      <p class="inspiration__text">
+        Our designer already made a lot of beautiful
+        prototype of rooms that inspire you
+      </p>
+
+      <a href="#" class="inspiration__btn">
+        Explore More
+      </a>
+    </div>
+
+    
+    <div class="inspiration__gallery">
+
+     
+      <div class="inspiration__main">
+        <img src="images/img-15.png" alt="Bedroom">
+
+        
+        <div class="inspiration__overlay">
+
+
+  <div class="inspiration__card">
+    <span class="inspiration__card-sub">
+      01
+      <span class="inspiration__line"></span>
+      Bed Room
+    </span>
+
+    <h3 class="inspiration__card-title">
+      Inner Peace
+    </h3>
+  </div>
+
+
+  <button class="inspiration__card-btn">
+   <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="48" height="48" fill="#B88E2F"/>
+<path d="M33 24H15M33 24L27 18M33 24L27 30" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+
+  </button>
+
+</div>
+        
+      </div>
+
+    
+      <div class="inspiration__side">
+        <img src="images/img-16.png" alt="Dining">
+
+        <button class="inspiration__svg-btn">
+        
+        </button>
+      </div>
+
+      <!-- DOTS -->
+      <div class="inspiration__dots">
+        <span class="inspiration__dot inspiration__dot--active"></span>
+        <span class="inspiration__dot"></span>
+        <span class="inspiration__dot"></span>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+<section class="gallery-section">
+    <h4>Share your setup with</h4>
+    <h1>#FuniroFurniture</h1>
+
+    <div class="gallery">
+      <img src="images/img-17.png" class="img img1">
+      <img src="images/img-18.png" class="img img2">
+      <img src="images/img-19.png" class="img img3">
+      <img src="images/img-20.png" class="img img4">
+      <img src="images/img-21.png" class="img img5">
+      <img src="images/img-22.png" class="img img6">
+      <img src="images/img-25.png" class="img img8">
+      <img src="images/img-24.png" class="img img9">
+      <img src="images/img-23.png" class="img img10">
+    </div>
+  </section>
+  <!--footer-->
+
+  <footer class="footer">
+        <div class="footer-container">
+            
+           
+            <div class="footer-col footer-brand">
+                <h2 class="logo">Funiro.</h2>
+                <p>
+                    400 University Drive Suite 200 Coral <br>
+                    Gables, <br>
+                    FL 33134 USA
+                </p>
+            </div>
+
+            
+            <div class="footer-col">
+                <h4>Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            
+            <div class="footer-col">
+                <h4>Help</h4>
+                <ul>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Privacy Policies</a></li>
+                </ul>
+            </div>
+
+           
+            <div class="footer-col">
+                <h4>Newsletter</h4>
+                <div class="newsletter">
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <button type="submit">SUBSCRIBE</button>
+                </div>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="footer-bottom">
+            <p>2023 funiro. All rights reserved</p>
+        </div>
+    </footer>
+
+
+</body>
+</html>
+
+<!--Hero Section
+<section class="hero">
+    <div class="hero__container">
+        <div class="hero__background"></div>
+        <div class="hero__card">
+            <div class="hero__card-content-1">
+                <p>New Arrival</p>           
+            </div>
+            <div class="hero__card-content-2">
+                <p>Discover Our New Collection</p>           
+            </div>
+            <div class="hero__card-content-3">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Cumque, dignissimos.</p>           
+            </div>
+            <div class="hero__button">
+            <a href="#" class="btn">
+              buy now
+            </a>
+          </div>
+        </div>
+    </div>
+</section>
+
+<!--range section--
+<section class="range">
+    <div class="range__container">
+        <div class="range__text">
+            <p class="range__title">Browse The Range</p>
+            <p class="range__desription">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+        </div>
+        <div class="range__image">
+            <div class="range__image-item">
+                <div class="range__image-item-1">
+                <img src="images/img-3.png" style="width: 381px; height: 480px; object-fit: cover;" />
+                  <figcaption>Dining</figcaption>                              
+                </div>
+           
+            <div class="range__image-item-2">
+                <img src="images/img-4.png" style="width: 381px; height: 480px; object-fit: cover;"/> 
+                <figcaption>ghng</figcaption>             
+            </div>
+            
+            <div class="range__image-item-3">
+                <img src="images/img-5.png" style="width: 381px; height: 480px; object-fit: cover;"/> 
+                <figcaption>fyujhty</figcaption>         
+            </div>
+            
+
+            </div>
+            
+        </div>
+    </div>
+
+</section>
+    
+</body>
+</html>
